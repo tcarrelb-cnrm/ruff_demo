@@ -29,8 +29,10 @@ def calculate_stats(values):
     stats["sqrt_sum"] = math.sqrt(stats["sum"])
     return stats
  
-def process_items(items=[]):  # Bugbear will flag mutable default argument
+def process_items(items=None):  # Bugbear will flag mutable default argument
     """Process a list of items."""
+    if items is None:
+        items = []
     return [x for x in items for y in items]  # Bugbear will flag nested comprehension
  
 x = 10
