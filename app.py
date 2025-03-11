@@ -1,6 +1,3 @@
-import sys
-import os
-import json
  
 def add_numbers( a,b ):
     """Add two numbers together."""
