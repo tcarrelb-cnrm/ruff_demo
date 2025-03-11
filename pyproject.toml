@@ -2,5 +2,5 @@
 
 [tool.ruff.lint]
 # On active la vérification des règles de pycodeflakes ("E"), erreur de style : https://pycodestyle.pycqa.org/en/latest/intro.html
-# On active la vérification des erreurs Pyflakes ("F"), erreurs de syntaxe : 
-select = ["E", "F"]
+# On active la vérification des erreurs Pyflakes ("F"), erreurs de syntaxe :  
+select = ["E", "F", "I"] # on ajoute le contrôle de l'utilisation des imports "I"
