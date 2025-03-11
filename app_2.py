@@ -1,9 +1,10 @@
 import datetime
-from pathlib import Path
+import json
 import math
 from collections import defaultdict
-import json
- 
+from pathlib import Path
+
+
 def add_numbers(a, b):
     """Add two numbers together."""
     result = a + b
