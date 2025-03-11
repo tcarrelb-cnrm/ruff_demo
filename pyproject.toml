@@ -1,6 +1,5 @@
 [tool.ruff]
 
 [tool.ruff.lint]
-# On active la vérification des règles de pycodeflakes ("E"), erreur de style : https://pycodestyle.pycqa.org/en/latest/intro.html
-# On active la vérification des erreurs Pyflakes ("F"), erreurs de syntaxe :  
-select = ["E", "F", "I", "B"] # on ajoute le contrôle de l'utilisation des imports "I", et les bugbear rules
+# On active les règles d'annotations de type
+select = ["E", "F", "I", "B", "ANN"] 
